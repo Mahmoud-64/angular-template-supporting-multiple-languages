@@ -1,0 +1,209 @@
+<section id="portfolio">
+    <div id="separator"></div>
+    <div class="container" id="portfolio" data-aos="fade-up">
+
+        <header class="section-header font-weight-bold">
+            <h3 class="text-center">{{"Our Portfolio" | translate}}</h3>
+        </header>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <ul id="navigators">
+                    <li routerLinkActive="activ" (click)="setAll()" routerLink="/"
+                        [routerLinkActiveOptions]="{exact: true}">{{"All" | translate}}</li>
+                    <li routerLinkActive=" activ" (click)="setApp()" routerLink="/second"> {{"App" | translate}}</li>
+                    <li routerLinkActive="activ" (click)="setCard()" routerLink="/third">{{"Card" | translate}}</li>
+                    <li routerLinkActive="activ" (click)="setWeb()" routerLink="/forth">{{"Web" | translate}}</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row container">
+
+            <div *ngIf="app || all" class="col-lg-4 col-md-6 item filter-app">
+                <div class="wrap">
+                    <img src="./assets/portfolio/app1.jpg" class="img-fluid" alt="">
+                    <div class="info">
+                        <h4><a href="#">App </a></h4>
+                        <div>
+                            <a href="./assets/portfolio/app1.jpg" data-gall="portfolioGallery"
+                                class="venobox link-preview">
+                                <fa-icon class="fa" [icon]="faEye">
+                                </fa-icon>
+                            </a>
+                            <a href="#" class="link-details">
+                                <fa-icon class="fa" [icon]="faExternalLinkAlt">
+                                </fa-icon>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div *ngIf="web || all" class="col-lg-4 col-md-6 item filter-web">
+                <div class="wrap">
+                    <img src="./assets/portfolio/web3.jpg" class="img-fluid" alt="">
+                    <div class="info">
+                        <h4><a href="#">Web </a></h4>
+                        <div>
+                            <a href="./assets/portfolio/web3.jpg" class="venobox link-preview"
+                                data-gall="portfolioGallery">
+                                <fa-icon class="fa" [icon]="faEye">
+                                </fa-icon>
+                            </a>
+                            <a href="#" class="link-details">
+                                <fa-icon class="fa" [icon]="faExternalLinkAlt">
+                                </fa-icon>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div *ngIf="app || all" class="col-lg-4 col-md-6 item filter-app">
+                <div class="wrap">
+                    <img src="./assets/portfolio/app2.jpg" class="img-fluid" alt="">
+                    <div class="info">
+                        <h4><a href="#">App </a></h4>
+                        <div>
+                            <a href="./assets/portfolio/app2.jpg" class="venobox link-preview"
+                                data-gall="portfolioGallery">
+                                <fa-icon class="fa" [icon]="faEye">
+                                </fa-icon>
+                            </a>
+                            <a href="#" class="link-details">
+                                <fa-icon class="fa" [icon]="faExternalLinkAlt">
+                                </fa-icon>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div *ngIf="card || all" class="col-lg-4 col-md-6 item filter-card">
+                <div class="wrap">
+                    <img src="./assets/portfolio/card2.jpg" class="img-fluid" alt="">
+                    <div class="info">
+                        <h4><a href="#">Card </a></h4>
+
+                        <div>
+                            <a href="./assets/portfolio/card2.jpg" class="venobox link-preview"
+                                data-gall="portfolioGallery">
+                                <fa-icon class="fa" [icon]="faEye">
+                                </fa-icon>
+                            </a>
+                            <a href="#" class="link-details">
+                                <fa-icon class="fa" [icon]="faExternalLinkAlt">
+                                </fa-icon>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div *ngIf="web || all" class="col-lg-4 col-md-6 item filter-web">
+                <div class="wrap">
+                    <img src="./assets/portfolio/web2.jpg" class="img-fluid" alt="">
+                    <div class="info">
+                        <h4><a href="#">Web </a></h4>
+                        <div>
+                            <a href="./assets/portfolio/web2.jpg" class="venobox link-preview"
+                                data-gall="portfolioGallery">
+                                <fa-icon class="fa" [icon]="faEye">
+                                </fa-icon>
+                            </a>
+                            <a href="#" class="link-details">
+                                <fa-icon class="fa" [icon]="faExternalLinkAlt">
+                                </fa-icon>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div *ngIf="app || all" class="col-lg-4 col-md-6 item filter-app">
+                <div class="wrap">
+                    <img src="./assets/portfolio/app3.jpg" class="img-fluid" alt="">
+                    <div class="info">
+                        <h4><a href="#">App </a></h4>
+                        <div>
+                            <a href="./assets/portfolio/app3.jpg" class="venobox link-preview"
+                                data-gall="portfolioGallery">
+                                <fa-icon class="fa" [icon]="faEye">
+                                </fa-icon>
+                            </a>
+                            <a href="#" class="link-details">
+                                <fa-icon class="fa" [icon]="faExternalLinkAlt">
+                                </fa-icon>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div *ngIf="card || all" class="col-lg-4 col-md-6 item filter-card">
+                <div class="wrap">
+                    <img src="./assets/portfolio/card1.jpg" class="img-fluid" alt="">
+                    <div class="info">
+                        <h4><a href="#">Card </a></h4>
+
+                        <div>
+                            <a href="./assets/portfolio/card1.jpg" class="venobox link-preview"
+                                data-gall="portfolioGallery">
+                                <fa-icon class="fa" [icon]="faEye">
+                                </fa-icon>
+                            </a>
+                            <a href="#" class="link-details">
+                                <fa-icon class="fa" [icon]="faExternalLinkAlt">
+                                </fa-icon>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div *ngIf="card || all" class="col-lg-4 col-md-6 item filter-card">
+                <div class="wrap">
+                    <img src="./assets/portfolio/card3.jpg" class="img-fluid" alt="">
+                    <div class="info">
+                        <h4><a href="#">Card </a></h4>
+
+                        <div>
+                            <a href="./assets/portfolio/card3.jpg" class="venobox link-preview"
+                                data-gall="portfolioGallery">
+                                <fa-icon class="fa" [icon]="faEye">
+                                </fa-icon>
+                            </a>
+                            <a href="#" class="link-details">
+                                <fa-icon class="fa" [icon]="faExternalLinkAlt">
+                                </fa-icon>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div *ngIf="web || all" class="col-lg-4 col-md-6 item filter-web">
+                <div class="wrap">
+                    <img src="./assets/portfolio/web1.jpg" class="img-fluid" alt="">
+                    <div class="info">
+                        <h4><a href="#">Web </a></h4>
+                        <div>
+                            <a href="./assets/portfolio/web1.jpg" class="venobox link-preview"
+                                data-gall="portfolioGallery">
+                                <fa-icon class="fa" [icon]="faEye">
+                                </fa-icon>
+                            </a>
+                            <a href="#" class="link-details">
+                                <fa-icon class="fa" [icon]="faExternalLinkAlt">
+                                </fa-icon>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>

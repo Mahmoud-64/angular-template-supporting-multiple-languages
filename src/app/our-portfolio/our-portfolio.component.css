@@ -1,0 +1,134 @@
+.activ{ 
+  background: #047bfc;
+  color: #fff; 
+}
+section {
+    padding: 50px 0;
+  }
+  
+  h3 {
+    font-size: 36px;
+  }
+  
+  .fa{
+     color: white;
+     position: relative;
+     top:3px;
+     font-size: 25px;
+    }
+    
+    #flters li:last-child {
+      margin-right: 0;
+  }
+  
+  .item {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+  }
+  
+  .item .wrap {
+    overflow: hidden;
+    position: relative;
+    border-radius: 6px;
+    margin: 0;
+  }
+  
+  .item .wrap:hover img {
+    opacity: 0.4;
+    transition: 0.3s;
+  }
+  
+  .item .wrap .info {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    opacity: 0;
+    transition: 0.2s linear;
+  }
+  
+  .item .wrap .info h4 {
+    font-size: 22px;
+    line-height: 1px;
+    font-weight: 700;
+    margin-bottom: 14px;
+    padding-bottom: 0;
+  }
+  
+  .item .wrap .info h4 a {
+    color: white;
+  }
+  
+  .item .wrap .info h4 a:hover {
+    color: #0679f5;
+  }
+  
+  #navigators {
+    padding: 0;
+    margin: 5px 0 35px 0;
+    list-style: none;
+    text-align: center;
+  }
+  
+  
+  #flters li:hover, #flters li.filter-active {
+    background: #047cfd;
+    color: white;
+  }
+  .item .wrap .info p {
+    padding: 0;
+    margin: 0;
+    color: #e2f6fe;
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+  
+  .item .wrap .info .link-preview, .item .wrap .info .link-details {
+    display: inline-block;
+    line-height: 1;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    background: #0277f5;
+    border-radius: 50%;
+    margin: 10px 4px 0 4px;
+  }
+  
+  
+  .item .wrap:hover {
+    background: #003166;
+  }
+  
+  .item .wrap:hover .info {
+    opacity: 1;
+  }
+  #navigators li {
+    cursor: pointer;
+    margin: 15px 15px 15px 0;
+    display: inline-block;
+    padding: 6px 20px;
+    font-size: 12px;
+    line-height: 20px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    transition: all 0.3s ease-in-out;
+  }
+  li{
+    color: #0475ee;
+  }
+  
+  *{
+    font-family: sans-serif;
+  }
+  #separator{
+    height: 40px;
+  }

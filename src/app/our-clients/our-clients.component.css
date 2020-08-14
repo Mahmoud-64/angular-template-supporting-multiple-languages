@@ -1,0 +1,43 @@
+.header h3 {
+    letter-spacing: 0.1rem;
+    font-weight: 400;
+    font-size: 40px;
+    color: #385670;
+    text-align: center;
+  }
+  
+.header p {
+    text-align: center;
+    margin: auto;
+    font-size: 18px;
+    width: 60%;
+    padding-bottom: 50px;
+    color: #556a7a;
+  }
+
+  section {
+    padding: 60px 0;
+    background-color: #ecf5ff;
+  }
+  
+  .wrapper {
+    margin-bottom: 25px;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+  }
+  
+  .client {
+    padding: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 2px solid #ecf5ff;
+    border-bottom: 2px solid #ecf5ff;
+    overflow: hidden;
+    background:white;
+    height: 160px;
+  }
+  
+  
+  
+  

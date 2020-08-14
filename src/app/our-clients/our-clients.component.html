@@ -1,0 +1,19 @@
+<section class="section">
+    <div class="container">
+        <div class="header">
+            <h3>{{"our clients" | translate}}</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat.
+            </p>
+        </div>
+        <div class="row no-gutters wrapper ">
+
+            <div *ngFor="let image of images" class="col-lg-3">
+                <div class="client">
+                    <img src="../assets/clients/client-{{image}}.png" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

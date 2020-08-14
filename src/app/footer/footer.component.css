@@ -1,0 +1,218 @@
+.phone, .email{
+  font-weight: 700;
+}
+.second .myfa
+  {
+      font-size: 50px;
+      color: #ffc107
+  }
+  
+  .third p
+  {
+   font-family: monospace;
+   font-size: 1.3rem
+  }
+  
+  .forth p
+  {
+      font-size: 1.2rem;
+      letter-spacing: .07em;
+      font-family: monospace;
+  }
+  
+  .fifth .fifth-container
+  {
+      background-color: #ffc107;
+      color: white;
+  }
+  
+  .fifth .btn-outline-danger
+  {
+      color: #ffffff;
+      border-color: #ffffff;
+      padding: 8PX;
+      border-radius:0px;
+      letter-spacing: 2px;
+      font-weight: bold;
+      margin-bottom: 50px;
+  }
+  
+  .fifth .btn-outline-danger:hover
+  {
+      color:black;
+      border-color: #ffffff;
+      background-color: #ffffff
+  }
+  
+  .fifth h2
+  {
+      margin-top: 55px; 
+      font-family: sans-serif;
+  }
+  
+  .fifth p
+  {
+      
+      font-family: monospace;
+      word-spacing: 3px;
+      letter-spacing: 1px;
+      font-size: 1.15rem;   
+  }
+  .sixth
+  {
+      background-color: #ffc809;
+      padding-top:80px;
+      padding-bottom:100px;
+  }
+  .sixth p
+  {
+     margin: 0px;
+     color: #000;
+     font-family: monospace;
+  }
+  
+footer {
+    background: #00428a;
+    padding: 0 0 30px 0;
+    color: #eee;
+    font-size: 14px;
+    font-family: sans-serif;
+  }
+  
+  .top {
+    background: #004a99;
+    padding: 40px 0px;
+  }
+  
+ 
+  
+   h3 {
+    font-size: 34px;
+    margin: 0 0 20px 0;
+    padding: 2px 0 2px 0;
+    line-height: 1;
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    font-weight: 400;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+  }
+  
+  .top .footer-info p {
+    font-size: 13px;
+    line-height: 24px;
+    margin-bottom: 0;
+    font-family: "Montserrat", sans-serif;
+    color: #ecf5ff;
+  }
+  
+  .top .contacts a {
+    font-size: 18px;
+    display: inline-block;
+    background: #007bff;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+  }
+  
+  .top .contacts a:hover {
+    background: #0067d5;
+    color: #fff;
+  }
+  
+  .top h4 {
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 10px;
+  }
+  
+  .top .links {
+    margin-bottom: 30px;
+  }
+  
+  .top .links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .top .links ul li {
+    padding: 8px 0;
+  }
+  
+  .top .links ul li:first-child {
+    padding-top: 0;
+  }
+  
+  .top .links ul a {
+    color: #ecf5ff;
+  }
+  
+  .top .links ul a:hover {
+    color: #74b5fc;
+  }
+  
+  .top .contact {
+    margin-bottom: 30px;
+  }
+  
+  .top .contact p {
+    line-height: 26px;
+  }
+  
+  .top .newsletter {
+    margin-bottom: 30px;
+  }
+  
+  
+  input[type="submit"] {
+      padding: 6px 0;
+      width: 35%;
+      text-align: center;
+      background: #027afa;
+      color: white;
+      transition: 0.4s;
+      cursor: pointer;
+    }
+    
+    input[type="email"] {
+     padding: 8px;
+     width: 50%;
+   }
+ 
+  
+.copyright {
+    text-align: center;
+    padding-top: 30px;
+  }
+
+
+  .second .myfa
+  {
+      font-size: 50px;
+      color: #ffc107
+  }
+  
+  .third p
+  {
+   font-family: monospace;
+   font-size: 1.3rem
+  }
+  
+  .forth p
+  {
+      font-size: 1.2rem;
+      letter-spacing: .07em;
+      font-family: monospace;
+  }
+  
+  

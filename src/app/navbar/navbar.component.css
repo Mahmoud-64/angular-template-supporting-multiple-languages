@@ -1,0 +1,43 @@
+.navbar-brand{
+    margin-left: 50px;
+    font-size: 2rem;
+    color:#204289;
+}
+ul{
+    margin-right: 50px;
+}
+li{
+    margin:0px 25px 0px 0px;
+    color: #204289;
+}
+.navbar-light .navbar-nav .nav-link{
+    
+    color:#204289;
+}
+
+li span:hover{
+    transition: color .5s ease;
+    color: #4d8aff;
+    cursor: pointer;
+}
+a span{
+    font-size: 16px;
+    font-family:sans-serif;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.active a span{
+    transition: color .5s ease;
+    color: #4d8aff;
+
+
+}
+nav{
+    position: fixed;
+    z-index: 10;
+    background-color: white;
+    width: 100%;
+    box-shadow: rgb(99, 97, 97) 0px 0px 20px 0px;
+}
+

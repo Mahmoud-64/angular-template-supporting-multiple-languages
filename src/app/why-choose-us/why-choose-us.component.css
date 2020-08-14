@@ -1,0 +1,79 @@
+section{
+    background-color: #004a99;
+    margin-top: 20px;
+    padding-bottom: 15px;
+}
+ .font-awesome-chart{
+    display: inline-block;
+    border-radius: 50%;
+    border: #427bff 2px solid;
+    padding: 0.5em 0.6em;
+    color: #427bff;
+    font-size: 25px;
+ }
+
+ .cardd{
+    background-color: #004085;
+    border-radius: 10px;
+
+}
+
+.cardd h5{
+    font-weight: 900;
+}
+
+.cardd .p1{
+    font-size: small;
+}
+
+.forth .numbers p{
+font-size: small;
+}
+
+.forth .numbers h1{
+    font-size: 50px;
+    font-weight: 900;
+    }
+
+
+a:hover{
+    cursor:pointer;
+} 
+section h2
+  {
+      font-family: mono;
+      font-weight: bold;
+  }
+  
+section p
+  {
+      font-family:sans-serif;
+      font-size:1.25rem;
+  }
+  
+.second .myfa
+  {
+      font-size: 50px;
+      color: #ffc107
+  }
+  
+  
+  .forth p
+  {
+      font-size: 1.2rem;
+      letter-spacing: .07em;
+      font-family: sans-serif;
+  }
+  
+  p, h1, h2, h3, h4, h5,h6{
+    color: white;
+}
+  a{
+      font-weight: 16px;
+      margin-top: 20px;
+  }
+.fa{
+    font-size: 70px;
+    color: rgb(214, 214, 250);
+}
+ 

@@ -1,0 +1,48 @@
+p{
+  font-family: "sans-serif";
+  display: inline;
+  
+}
+.icon{
+  color:#067bf8;
+  font-weight: lighter;
+  font-size: 30px;
+  margin-right: 5px;;
+}
+.name , .email{
+margin-top: 10px;
+}
+
+iframe{
+  height: 300px;
+  width: 100%;
+}
+
+section{
+  padding-bottom: 30px;
+}
+.header h3 {
+  margin-top: 30px;
+    font-size: 40px;
+    color: #000;
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  
+   button {
+    background: #067bf8;
+    border: 0;
+    border-radius: 15px;
+    color: #fff;
+    transition: 0.3s;
+    padding: 10px 20px;
+    position: relative;
+    left: 40%;  }
+  
+   button:hover {
+    background: #0761c2;
+    cursor: pointer;
+  }
+  #separator{
+    height: 40px;
+  }

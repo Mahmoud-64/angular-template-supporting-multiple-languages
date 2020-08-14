@@ -1,0 +1,49 @@
+<section id="testimonials" class="section-bg">
+    <div class="container" data-aso="zoom-in">
+
+        <header class="header">
+            <h3>{{"Testimonials" | translate}}</h3>
+        </header>
+
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li class="indicator active" data-target="#carouselExampleIndicators" data-slide-to="0">
+                        </li>
+                        <li class="indicator" data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li class="indicator" data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        <li class="indicator" data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                        <li class="indicator" data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                        <li class="indicator" data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="testimonial-img" src="{{firstUser.avatar}}">
+                            <h3>{{firstUser.first_name}}</h3>
+                            <h4>Entrepreneur</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                                dolor in reprehenderit in voluptate velit esse cillum dolore
+                            </p>
+                        </div>
+                        <div *ngFor="let user of usersData | slice:1" class="carousel-item">
+                            <img class="testimonial-img" src="{{user.avatar}}">
+                            <h3>{{user.first_name}}</h3>
+                            <h4>Entrepreneur</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                                dolor in reprehenderit in voluptate velit esse cillum dolore
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
